@@ -21,7 +21,7 @@
 .text__initial{
     font-size: 1.4rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 110%;
     color: var(--preto-texto);
 }
 
@@ -38,6 +38,12 @@
     text-decoration: none;
 
     color: var(--preto-texto);
+}
+
+.links__initial::after{
+    position: relative;
+    top: 6px;
+    content: url(/Portfolio_pessoal/assets/imgs/arrow_back_black_24dp\ 1.svg);
 }
 
 .links__initial:hover{
@@ -79,13 +85,15 @@
     }
 
     .links__initial{
-        margin-right: 2rem;
+        font-size: 0.9rem;
+        margin-right: 1rem;
+        margin-left: 0;
     }
 }
 
 @media screen and (max-width: 680px){
     .div__initialText {
-        padding-right: 1rem;
+        padding-right: 0rem;
         max-width: 100%;
     }
 
@@ -100,12 +108,27 @@
 
     .social__links{
         width: 100%;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .links__initial{
-        font-size: 0.9rem;
-        margin-left: 0;
-        margin-right: 12px;
+        font-size: 0.8rem;
+        margin-left: 0px;
+        margin-right: 8px;
+
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .links__initial::after{
+        display: none;
+    }
+
+    .social__links{
+        padding-bottom: 0px;
+    }
+
+    .links__initial{
+        margin-right: 14px;
     }
 }
