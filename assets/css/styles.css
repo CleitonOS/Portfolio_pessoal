@@ -1,0 +1,57 @@
+:root {
+    --font-raleway: 'Raleway', sans-serif;
+    --preto-texto:#464646;
+    --cor-base-claro: rgba(245, 245, 245, 1);
+    --cor-base-escura:rgba(234, 242, 253, 1);
+    --cor-branca-caixa: #ffffff;
+    --cor-azul-icones-botoes: #2A7AE4;
+}
+
+body{
+    font-family: var(--font-raleway);
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+
+    color: var(--preto-texto);
+}
+
+.button{
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+
+    padding: 1rem 1.5rem;
+
+    text-decoration: none;
+
+    border: 1px solid var(--cor-azul-icones-botoes);
+}
+
+.button__dark:hover{
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.13), 0 0 0.0625rem 0 rgba(0,0,0,.11);
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1));
+}
+
+.button__light:hover{
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.13), 0 0 0.0625rem 0 rgba(0,0,0,.11);
+    background-image: linear-gradient(rgba(0,0,0,.02),rgba(0,0,0,.02));
+}
+
+.container {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+@media screen and (max-width: 680px){
+    .button{
+        max-width: 600px;
+        padding: 0.8rem 1rem;    
+    }
+}
+
+

@@ -1,0 +1,196 @@
+.contact__section{
+   background-color: var(--cor-base-escura);
+   padding-top: 4rem;
+   padding-bottom: 2rem;
+}
+
+.contact__group{
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem 0;
+}
+
+.title__contact{
+    text-align: left;
+
+    padding-bottom: 1rem;
+}
+
+.text__contact{
+    font-size: 1rem;
+    font-weight: 500;
+
+    padding-bottom: 0.4rem;
+
+    color: var(--preto-texto);
+}
+
+.image__contact{
+    width: 24rem;
+    padding-right: 2rem;
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80;
+}
+
+.default-input{
+    display: block;
+    width: 100%;
+
+    font-family: var(--font-raleway);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--preto-texto);
+
+    padding: 1rem;
+    padding-top: 1.5rem;
+    margin: 1.5rem 0;
+
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 3px;
+
+    outline: none;
+}
+
+.email-input{
+    font-variant-numeric:lining-nums;
+}
+
+.message-input{
+    display: block;
+    font-family: var(--font-raleway);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--preto-texto);
+    
+    width: 100%;
+    height: 40%;
+    resize: none;
+
+    padding: 1rem;
+    padding-top: 1.5rem;
+    margin: 1.5rem 0 2rem 0;
+
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 3px;
+
+    outline: none;
+}
+
+/* Estilização da borda da parte inferior quando elemento estiver em foco */
+
+.default-input:focus{
+    border-bottom: 2px solid var(--cor-azul-icones-botoes);
+}
+
+.message-input:focus{
+    border-bottom: 2px solid var(--cor-azul-icones-botoes);
+}
+
+/* Estilização do Label e posicionamento */
+
+.box-input-default{
+    position: relative;
+}
+
+.box-input-default label{
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+
+    opacity: 0.8;
+    color: var(--preto-texto);
+    transition: 0.5s;
+
+    pointer-events: none;
+
+}
+
+.label-name{
+    position: absolute;
+    top: 25px;
+    left: 16px;
+}
+
+.label-email{
+    position: absolute;
+    top: 25px;
+    left: 16px;
+}
+
+.label-phone{
+    position: absolute;
+    top: 25px;
+    left: 16px;
+}
+
+.label-textarea{
+    position: absolute;
+    top: 25px;
+    left: 16px;
+}
+
+.default-input:focus ~ label,
+.default-input:valid ~ label
+{
+    color: var(--cor-azul-icones-botoes);
+    font-size: 0.75rem;
+    transform: translateY(-18px) translateX(-5px);
+
+    transition: 0.5s;
+}
+
+.message-input:focus ~ label,
+.message-input:valid ~ label
+{
+    color: var(--cor-azul-icones-botoes);
+    font-size: 0.75rem;
+    transform: translateY(-18px) translateX(-5px);
+
+    transition: 0.5s;
+}
+/* Estilização do Botão | Button */
+
+.submit{
+    font-size: 1rem;
+    font-weight: 400;
+
+    background-color: var(--cor-azul-icones-botoes);
+    color: var(--cor-branca-caixa);
+}
+
+.submit:hover{
+    cursor: pointer;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.13), 0 0 0.0625rem 0 rgba(0,0,0,.11);
+    background-image: linear-gradient(rgba(0,0,0,.02),rgba(0,0,0,.02));
+}
+
+@media screen and (max-width: 1023px){
+    .title__contact{
+        font-size: 1.6rem;
+    }
+
+    .image__contact{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .default-input{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .message-input{
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

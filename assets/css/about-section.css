@@ -1,0 +1,37 @@
+.about__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+    background-color: var(--cor-base-escura);
+}
+
+.about__title{
+    font-size: 2rem;
+    font-weight: 700;
+
+    color: var(--preto-texto);
+
+    padding: 2rem 0 2rem 0;
+}
+
+.about__text{
+    font-size: 1rem;
+    font-weight: 400;
+
+    width: 70%;
+
+    color: var(--preto-texto);
+
+    padding-bottom: 1.4rem;
+}
+
+@media screen and (max-width: 1023px){
+    .about__text{
+        width: 100%;
+    }
+}
