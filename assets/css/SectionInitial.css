@@ -112,7 +112,7 @@
     }
 
     .links__initial{
-        font-size: 0.8rem;
+        font-size: 0.82rem;
         margin-left: 0px;
         margin-right: 8px;
 
@@ -129,6 +129,7 @@
     }
 
     .links__initial{
+        font-size: 0.9rem;
         margin-right: 14px;
     }
 }
