@@ -57,10 +57,10 @@
 .imgPerfil_initial{
     width: 260px;
     height: 340px;
-    border: 1px solid var(--preto-texto);
+    border: 2px solid var(--preto-texto);
     border-radius: 10%;
-    
-    box-shadow: 4px 4px 2px 0px black;
+
+    box-shadow: 2px 2px 4px 0px black;
 }
 
 @media screen and (max-width: 1023px){
