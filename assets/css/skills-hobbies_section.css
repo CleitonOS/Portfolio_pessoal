@@ -164,6 +164,12 @@
     padding-left: 0.1rem;
 }
 
+.fa-shuttle-space{
+    color: var(--cor-azul-icones-botoes);
+    padding-bottom: 0.8rem;
+    padding-left: 0.1rem;
+}
+
 /* Estilização utilizando Hover da parte de HOBBIES */
 
 .items__hobbies:hover
