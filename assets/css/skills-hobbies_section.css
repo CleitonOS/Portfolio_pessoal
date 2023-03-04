@@ -116,14 +116,22 @@
     background-position: 0.8rem 5rem;
 }
 
-.items__skills--nodejs{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/node.svg);
-    background-position: 0.8rem 5.5rem;
+.items__skills--git{
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.fa-git-alt{
+    color: var(--cor-azul-icones-botoes);
+    padding-bottom: 0.8rem;
+    padding-left: 0.1rem;
 }
 
 .items__skills--php{
     background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/php.svg);
     background-position: 0.8rem 5.5rem;
+    padding: 0.8rem 5.5rem;
 }
 
 /* Imagens da parte de HOBBIES */
@@ -194,6 +202,10 @@
     transition: 0.5s;
 }
 
+.items__skills:hover > i{
+    color: var(--cor-branca-caixa);
+}
+
 .items__skills--html:hover{
     background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/logos_branca/html-white.svg);
 }
@@ -208,10 +220,6 @@
 
 .items__skills--react:hover{
     background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/logos_branca/react-white.svg);
-}
-
-.items__skills--nodejs:hover{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/logos_branca/nodejs-white.svg);
 }
 
 .items__skills--php:hover{
