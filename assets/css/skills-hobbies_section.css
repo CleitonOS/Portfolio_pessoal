@@ -129,8 +129,15 @@
 }
 
 .items__skills--php{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/php.svg);
-    background-position: 0.8rem 5.5rem;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.fa-python{
+    color: var(--cor-azul-icones-botoes);
+    padding-bottom: 0.8rem;
+    padding-left: 0.1rem;
 }
 
 /* Imagens da parte de HOBBIES */
