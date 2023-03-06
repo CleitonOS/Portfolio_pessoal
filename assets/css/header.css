@@ -76,3 +76,19 @@
         padding-right: 2px;
     }
 }
+
+@media screen and (max-width: 430px){
+    .header{
+        padding: 0 1.5rem;
+        height: 6rem;
+    }
+
+    .title__header{
+        font-size: 1rem;
+    }
+
+    #id-link-contato{
+        font-size: 1rem;
+        padding-top: 6px;
+    }
+}
