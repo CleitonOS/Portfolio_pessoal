@@ -55,12 +55,16 @@
 }
 
 .imgPerfil_initial{
-    width: 260px;
-    height: 340px;
-    border: 2px solid var(--preto-texto);
-    border-radius: 10%;
+    width: 250px;
+    height: 250px;
+    border: 1px solid var(--preto-texto);
+    border-radius: 50%;
 
-    box-shadow: 2px 2px 4px 0px black;
+    background-image: url('../imgs/imagem-de-perfil.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 1px 1px 3px 0px black;
 }
 
 @media screen and (max-width: 1439px){
