@@ -57,6 +57,12 @@
      100% { opacity: 1; }
 }
 
+@media screen and (min-width: 430px) {
+    #id-link-contato span{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1023px){
     
     .links__header:not(#id-link-contato){
@@ -65,8 +71,8 @@
     #id-link-contato{
         font-weight: bold;
     }
-    #id-link-contato::before{
-        content: "⮚";
-        padding-right: 4px;
+
+    #id-link-contato span{
+        padding-right: 2px;
     }
 }

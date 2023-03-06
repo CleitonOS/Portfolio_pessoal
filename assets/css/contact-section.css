@@ -84,6 +84,21 @@
     border-radius: 3px;
 
     outline: none;
+
+}
+
+.message-input::-webkit-scrollbar{
+    width: 15px;
+}
+
+.message-input::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+.message-input::-webkit-scrollbar-thumb {
+    background-color: var(--cor-azul-icones-botoes);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid var(--cor-branca-caixa);  /* creates padding around scroll thumb */
 }
 
 /* Estilização da borda da parte inferior quando elemento estiver em foco */
@@ -138,8 +153,18 @@
     left: 16px;
 }
 
-.default-input:focus ~ label,
-.default-input:valid ~ label
+.default-input:not(#email-input):focus ~ label,
+.default-input:not(#email-input):valid ~ label
+{
+    color: var(--cor-azul-icones-botoes);
+    font-size: 0.75rem;
+    transform: translateY(-18px) translateX(-5px);
+
+    transition: 0.5s;
+}
+
+#email-input:focus ~ label,
+#email-input:valid ~ label
 {
     color: var(--cor-azul-icones-botoes);
     font-size: 0.75rem;
