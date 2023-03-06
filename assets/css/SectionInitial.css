@@ -43,7 +43,7 @@
 .links__initial::after{
     position: relative;
     top: 6px;
-    content: url(/Portfolio_pessoal/assets/imgs/arrow_back_black_24dp/1.svg);
+    content: url(/Portfolio_pessoal/assets/imgs/arrow_back_black_24dp\ 1.svg);
 }
 
 .links__initial:hover{
