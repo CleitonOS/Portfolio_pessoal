@@ -57,7 +57,7 @@
      100% { opacity: 1; }
 }
 
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 769px) {
     #id-link-contato span{
         display: none;
     }

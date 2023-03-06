@@ -55,8 +55,8 @@
 }
 
 .imgPerfil_initial{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border: 1px solid var(--preto-texto);
     border-radius: 50%;
 
@@ -90,8 +90,8 @@
     }
 
     .imgPerfil_initial{
-        width: 130px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
     }
 
     .social__links{
@@ -116,7 +116,7 @@
     align-items: flex-start;
     }
 
-    .imgPerfil_initial{
+    .div-perfil-img{
         order: -1;
     }
 
