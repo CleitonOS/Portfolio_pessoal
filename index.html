@@ -162,32 +162,34 @@
                     <h2 class="title__contact">Contato</h2>
                     <p class="text__contact">Quer entrar em contato comigo?</p>
                     <p class="text__contact">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                    <form id="form">
+                    <form action="https://formsubmit.co/cleiton.mengo07@hotmail.com" method="post" id="form">
                         <div class="box-input-default">
-                            <input type="text" class="name-input default-input" id="name-input" name="name-input" autocomplete="off" title="Certifique-se que o campo não está VAZIO ou em BRANCO, deve conter no MÁXIMO 50 caracteres" data-tipo="nome" maxlength="50" required>
-                            <label for="name-input" class="label-name">Nome</label>
+                            <input type="text" class="name-input default-input" id="name-input" name="name" autocomplete="off" title="Certifique-se que o campo não está VAZIO ou em BRANCO, deve conter no MÁXIMO 50 caracteres" maxlength="50" required>
+                            <label for="name" class="label-name">Nome</label>
                             <span class="input-name"></span>
                         </div> 
 
                         <div class="box-input-default">
-                            <input type="email" class="email-input default-input" id="email-input" name="email-input" autocomplete="off" required>
-                            <label for="email-input" class="label-email">E-mail</label>
+                            <input type="email" class="email-input default-input" id="email-input" name="email" autocomplete="off" required>
+                            <label for="email" class="label-email">E-mail</label>
                             <span class="input-email"></span> 
                         </div> 
 
                         <div class="box-input-default">
-                            <input type="text" class="subject-input default-input" id="subject-input" name="subject-input" autocomplete="off" required>
-                            <label for="subject-input" class="label-subject">Assunto</label>
+                            <input type="text" class="subject-input default-input" id="subject-input" name="subject" autocomplete="off" required>
+                            <label for="subject" class="label-subject">Assunto</label>
                             <span class="input-text"></span>
                         </div>
 
                         
                         <div class="box-input-default">
-                            <textarea cols="50" rows="10" class="message-input" id="message-input" name="message-input" pattern="^(?=.[a-z])(?=.[A-Z])(?=.[0-9])$" required></textarea>
-                            <label for="message-input" class="label-textarea">Mensagem</label>
+                            <textarea cols="50" rows="10" class="message-input" id="message-input" name="message" pattern="^(?=.[a-z])(?=.[A-Z])(?=.[0-9])$" required></textarea>
+                            <label for="message" class="label-textarea">Mensagem</label>
                             <span class="input-message"></span>
                         </div>
 
+                        <input type="hidden" name="_next" value="https://cleitonos.github.io/Portfolio_pessoal/thanks-page.html">
+                        <input type="hidden" name="_captcha" value="false">
                         <input type="submit" value="Enviar mensagem" class="submit button">
                     </form>
                 </div>

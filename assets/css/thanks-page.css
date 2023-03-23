@@ -1,0 +1,31 @@
+.container{
+    margin: 8% 16% 0 16%;
+    padding: 2% 6%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--cor-base-claro);
+    border: 2px solid var(--cor-azul-icones-botoes);
+}
+
+.title__thanks{
+    font-family: var(--font-raleway);
+    font-size: 3rem;
+    color: var(--preto-texto);
+
+    padding: 1rem 0;
+}
+
+.text__thanks{
+    font-family: var(--font-raleway);
+    font-size: 1.5rem;
+    line-height: 120%;
+    color: var(--preto-texto);
+
+    padding: 1rem 0;
+}
+
+.link__main-page{
+    text-decoration: underline;
+}
