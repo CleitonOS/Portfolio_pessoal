@@ -36,6 +36,10 @@
     height: 40%;
 }
 
+.img-alura-one{
+    transform: scale(1.4);
+}
+
 .images{
     max-width: 260px;
     max-height: 120px;
@@ -78,6 +82,10 @@
     .box__courses{
         width: 85%;
         height: 118px;
+    }
+
+    .img-alura-one{
+        transform: scale(1);
     }
 
     .images{

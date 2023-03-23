@@ -44,7 +44,7 @@
                     <li><a href="https://github.com/CleitonOS" target="_blank" rel="noreferrer noopener" class="links__initial">Github</a></li>
                     <li><a href="https://www.linkedin.com/in/cleiton-nascimento-dev/" target="_blank" rel="noreferrer noopener" class="links__initial">Linkedin</a></li>
                     <li><a href="https://www.instagram.com/cleitonrn7/" target="_blank" rel="noreferrer noopener" class="links__initial">Instagram</a></li>
-                    <li><a href="#" target="_blank" rel="noreferrer noopener" class="links__initial">Currículo</a></li>
+                    <li><a href="./assets/imgs/Currículo-Linkedin.pdf" target="_blank" rel="noreferrer noopener" class="links__initial">Currículo</a></li>
                 </ul>
             </div>
             
@@ -104,7 +104,7 @@
                 </li>
                 <li class="items__courses">
                     <div class="box__courses">
-                        <img src="./assets/imgs/logos_courses/logo_oracleAlura-ptbr.svg" alt="Logo da Alura e ONE" class="img-alura-one images">  
+                        <img src="./assets/imgs/logos_courses/ONE-Next-Education.png" alt="Logo da Alura e ONE" class="img-alura-one images">  
                     </div>
                     <p class="course__name">Formação Front-End</p>
                     <p class="course__info">Em andamento - Alura | ONE</p>
@@ -162,26 +162,30 @@
                     <h2 class="title__contact">Contato</h2>
                     <p class="text__contact">Quer entrar em contato comigo?</p>
                     <p class="text__contact">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                    <form>
+                    <form id="form">
                         <div class="box-input-default">
-                            <input type="text" class="name-input default-input" id="name-input" name="name-input" autocomplete="off" required>
+                            <input type="text" class="name-input default-input" id="name-input" name="name-input" autocomplete="off" title="Certifique-se que o campo não está VAZIO ou em BRANCO, deve conter no MÁXIMO 50 caracteres" data-tipo="nome" maxlength="50" required>
                             <label for="name-input" class="label-name">Nome</label>
+                            <span class="input-name"></span>
                         </div> 
 
                         <div class="box-input-default">
                             <input type="email" class="email-input default-input" id="email-input" name="email-input" autocomplete="off" required>
-                            <label for="email-input" class="label-email">E-mail</label> 
+                            <label for="email-input" class="label-email">E-mail</label>
+                            <span class="input-email"></span> 
                         </div> 
 
                         <div class="box-input-default">
-                            <input type="text" class="phone-input default-input" id="phone-input" name="phone-input" autocomplete="off" required>
-                            <label for="phone-input" class="label-phone">Assunto</label>
+                            <input type="text" class="subject-input default-input" id="subject-input" name="subject-input" autocomplete="off" required>
+                            <label for="subject-input" class="label-subject">Assunto</label>
+                            <span class="input-text"></span>
                         </div>
 
                         
                         <div class="box-input-default">
-                            <textarea cols="50" rows="10" id="message-input" class="message-input" name="message-input" required></textarea>
+                            <textarea cols="50" rows="10" class="message-input" id="message-input" name="message-input" pattern="^(?=.[a-z])(?=.[A-Z])(?=.[0-9])$" required></textarea>
                             <label for="message-input" class="label-textarea">Mensagem</label>
+                            <span class="input-message"></span>
                         </div>
 
                         <input type="submit" value="Enviar mensagem" class="submit button">
@@ -197,5 +201,6 @@
     </footer>
     
     <script src="https://kit.fontawesome.com/48cd63999d.js" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/validacao.js"></script>
 </body>
 </html>

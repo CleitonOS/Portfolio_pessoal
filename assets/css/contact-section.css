@@ -27,6 +27,7 @@
 }
 
 .image__contact{
+    max-height: 700px;
     width: 24rem;
     padding-right: 2rem;
 }
@@ -36,6 +37,17 @@
     flex-direction: column;
     height: 100%;
     width: 80;
+}
+/* mensagem de erro - implementar através do javascript */
+.input-name--erro, .input-email--erro, .input-text--erro, .input-message--erro{
+    display: block;
+    text-align: center;
+    color: var(--cor-aviso);
+    border: 1px solid var(--cor-aviso);
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: 5%;
+    margin-bottom: 1.2rem;
 }
 
 .default-input{
@@ -86,6 +98,11 @@
     outline: none;
 
 }
+/* classe de espaçamento - implementar através do javascript */
+.spacing-modifier{
+    margin: 1.0rem 0 0.7rem 0;
+}
+
 
 .message-input::-webkit-scrollbar{
     width: 15px;
@@ -94,7 +111,8 @@
 .message-input::-webkit-scrollbar-track {
     background: transparent;
 }
-  
+
+/* estilização da scrollbar */
 .message-input::-webkit-scrollbar-thumb {
     background-color: var(--cor-azul-icones-botoes);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
@@ -141,7 +159,7 @@
     left: 16px;
 }
 
-.label-phone{
+.label-subject{
     position: absolute;
     top: 25px;
     left: 16px;
@@ -182,6 +200,15 @@
 
     transition: 0.5s;
 }
+
+.input:not(:placeholder-shown) + label, .input:focus + label {
+    color: var(--cor-azul-icones-botoes);
+    font-size: 0.75rem;
+    transform: translateY(-18px) translateX(-5px);
+
+    transition: 0.5s;
+}
+
 /* Estilização do Botão | Button */
 
 .submit{
@@ -206,6 +233,11 @@
     .image__contact{
         display: none;
     }
+
+    .submit{
+        max-width: 600px;
+        padding: 0.8rem 1rem;
+    }
 }
 
 @media screen and (max-width: 680px){
@@ -217,5 +249,9 @@
     .message-input{
         box-sizing: border-box;
         width: 100%;
+    }
+
+    .input-mensagem-erro {
+        margin-left: 0;
     }
 }

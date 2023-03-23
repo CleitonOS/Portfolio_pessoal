@@ -97,22 +97,22 @@
 /* Imagens da parte de Skills */
 
 .items__skills--html{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/html.svg);
+    background-image: url('../imgs/logos_skills/html.svg');
     background-position: 0.8rem 4.8rem;
 }
 
 .items__skills--css{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/css.svg);
+    background-image: url('../imgs/logos_skills/css.svg');
     background-position: 0.6rem 4.3rem;
 }
 
 .items__skills--javascript{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/js.svg);
+    background-image: url('../imgs/logos_skills/js.svg');
     background-position: 0.8rem 5rem;
 }
 
 .items__skills--react{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/react.svg);
+    background-image: url('../imgs/logos_skills/react.svg');
     background-position: 0.8rem 5rem;
 }
 
@@ -213,19 +213,19 @@
 }
 
 .items__skills--html:hover{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/logos_branca/html-white.svg);
+    background-image: url('../imgs/logos_skills/html.svg');
 }
 
 .items__skills--css:hover{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/logos_branca/css-white.svg);
+    background-image: url('../imgs/logos_skills/logos_branca/css-white.svg');
 }
 
 .items__skills--javascript:hover{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/logos_branca/js-white.svg);
+    background-image: url('../imgs/logos_skills/logos_branca/js-white.svg');
 }
 
 .items__skills--react:hover{
-    background-image: url(/Portfolio_pessoal/assets/imgs/logos_skills/logos_branca/react-white.svg);
+    background-image: url('../imgs/logos_skills/logos_branca/react-white.svg');
 }
 
 @media screen and (max-width: 1023px){

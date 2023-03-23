@@ -5,6 +5,7 @@
     --cor-base-escura:rgba(234, 242, 253, 1);
     --cor-branca-caixa: #ffffff;
     --cor-azul-icones-botoes: #2A7AE4;
+    --cor-aviso: #df2525;
 }
 
 body{
@@ -43,8 +44,8 @@ h2{
 }
 
 .container {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 @media screen and (max-width: 680px){
