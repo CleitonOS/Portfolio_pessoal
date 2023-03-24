@@ -251,7 +251,7 @@
         width: 100%;
     }
 
-    .input-mensagem-erro {
+    .input-name--erro, .input-email--erro, .input-text--erro, .input-message--erro{
         margin-left: 0;
     }
 }

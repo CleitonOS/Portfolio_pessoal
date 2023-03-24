@@ -23,9 +23,41 @@
     line-height: 120%;
     color: var(--preto-texto);
 
-    padding: 1rem 0;
+    padding: 0;
 }
 
 .link__main-page{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    .title__thanks{
+        font-size: 2rem;
+    }
+
+    .text__thanks{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .container{
+        margin: 8% 10% 0 10%;
+        padding: 4% 4%;
+    }
+    .title__thanks{
+        font-size: 1.8rem;
+    }
+
+    .text__thanks{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .link__main-page{
+        position: relative;
+        left: -2px;
+        font-size: 12px;
+    }
 }
