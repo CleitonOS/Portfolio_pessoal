@@ -3,7 +3,7 @@ Um website do meu portfólio pessoal, contém um pouco sobre min, minhas experi�
 
 ## Sobre o desenvolvimento do projeto
 Durante o desenvolvimento pude aprimorar minhas habilidades de Front-End utilizando principalmente HTML semântico, EMMET/ CSS, FlexBox, Media-Queries/ Javascript.
-Á página em sí contém 6 seções:
+Falando um pouco sobre a página, ela contém 6 seções:
 ```
 [1] Uma introdutória onde me apresento e falo sobre minhas paixões
 [2] Conto um pouco sobre min
