@@ -16,7 +16,7 @@ Falando um pouco sobre a página, ela contém 6 seções:
 [5] Experiência profissional e projetos 
 [6] Uma sessão de contato
 ```
-Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os campos do formulário de contato, validando se há espaço vazio ou em branco, se estava no limite de caracteres definido, e toda lógica foi implementada no JavaScript. Fora isso, também foi feita validações pelo HTML utilizando algumas propriedades e RegEx. 
+Além disso, foi proposto um desafio nesse projeto onde precisávamos validar os campos do formulário de contato, validando se há espaço vazio ou em branco, se estava no limite de caracteres definido, e toda lógica foi implementada no JavaScript. Além do mais, também foi feita validações pelo HTML utilizando algumas propriedades do próprio HTML e o uso do "pattern" para criar uma RegEx. 
 
 ### Badge de conclusão do desafio
 <img src="assets/imgs/badge_challenge_portfolio.png">
