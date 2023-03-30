@@ -26,6 +26,18 @@
     color: var(--preto-texto);
 }
 
+.space{
+    filter: opacity(0.9);
+    font-size: 0.8rem;
+}
+
+.text__contact span a{
+    color: black;
+    filter: opacity(0.9);
+    font-variant-numeric:lining-nums;
+    text-decoration: underline;
+}
+
 .image__contact{
     max-height: 700px;
     width: 24rem;
