@@ -15,6 +15,7 @@
 
 .texto-footer span{
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .year-footer{
