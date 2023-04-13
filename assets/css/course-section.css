@@ -70,6 +70,7 @@
 .course__info{
     font-size: 1rem;
     font-weight: 500;
+    font-variant-numeric: lining-nums;
 
     color: var(--preto-texto);
 }

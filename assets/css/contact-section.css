@@ -48,7 +48,6 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 80;
 }
 /* mensagem de erro - implementar através do javascript */
 .input-name--erro, .input-email--erro, .input-text--erro, .input-message--erro{

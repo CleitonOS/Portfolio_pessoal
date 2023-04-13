@@ -47,7 +47,8 @@
 }
 
 .links__initial:hover{
-    text-decoration: underline;
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
 }
 
 .div__initialText {
@@ -64,7 +65,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    box-shadow: 1px 1px 3px 0px black;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.5));
 }
 
 @media screen and (max-width: 1439px){
