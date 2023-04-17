@@ -9,7 +9,7 @@
 }
 
 .texto-footer{
-    padding: 6px 0;
+    padding: 5px 0;
     font-variant-numeric: lining-nums;
 }
 
@@ -23,3 +23,9 @@
     font-variant-numeric: lining-nums;
 }
 
+@media screen and (max-width: 430px){
+    .main__footer{
+        font-size: .8rem;
+    }
+    
+}
