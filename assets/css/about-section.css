@@ -26,7 +26,6 @@
     font-variant-numeric: lining-nums;
 
     width: 70%;
-
     color: var(--preto-texto);
     padding-bottom: 1.4rem;
 }
@@ -35,5 +34,6 @@
     .about__text{
         width: 100%;
         font-size: 1rem;
+        line-height: 150%;
     }
 }
