@@ -19,13 +19,12 @@
 }
 
 .year-footer{
-    font-size: 1rem;
     font-variant-numeric: lining-nums;
 }
 
 @media screen and (max-width: 430px){
     .main__footer{
-        font-size: .8rem;
+        font-size: .7rem;
     }
     
 }
