@@ -33,7 +33,6 @@ function validaNome(inputNome) {
         inputNome.classList.remove('spacing-modifier');
         inputNome.setCustomValidity("");
     }
-
 }
 
 inputNome.addEventListener("blur", (evento) => {
