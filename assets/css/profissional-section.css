@@ -83,7 +83,7 @@
         flex-direction: column;
     }
 
-    .items__experience--second .div_content{
+    .items__experience .div_content{
         order: 0;
     }
 
