@@ -79,6 +79,16 @@
     color: var(--preto-texto);
 }
 
+.course__link{
+    text-decoration: none;
+}
+
+.course__link:hover{
+    color: var(--preto-texto);
+    text-decoration: underline 2px;
+    text-underline-offset: 2px;
+}
+
 @media screen and (max-width: 1200px){
     .title__course{
         font-size: 1.6rem;
