@@ -47,6 +47,7 @@
     padding: 5px;
 
     color: var(--preto-texto);
+    transition: 0.4s all;
 }
 
 .links__header:hover{
