@@ -38,6 +38,8 @@
     text-decoration: none;
 
     color: var(--preto-texto);
+    padding: 5px;
+    transition: 0.4s all;
 }
 
 .links__initial::after{
@@ -47,8 +49,11 @@
 }
 
 .links__initial:hover{
-    text-decoration: underline 2px;
-    text-underline-offset: 4px;
+    background-color: rgb(230, 230, 230);
+    background-clip: border-box;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.4s all;
 }
 
 .div__initialText {
