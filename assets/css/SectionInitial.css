@@ -111,7 +111,7 @@
     }
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 710px){
     .div__initialText {
         padding-right: 0rem;
         max-width: 100%;
@@ -135,7 +135,7 @@
         font-size: 0.82rem;
         margin-left: 0px;
         margin-right: 8px;
-
+        padding: 0px;
     }
 }
 

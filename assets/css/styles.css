@@ -77,4 +77,10 @@ h2{
     }
 }
 
+@media screen and (max-width: 430px){
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
 
