@@ -66,11 +66,7 @@
     color: var(--cor-branca-caixa);
 }
 
-.items__experience--second .div_content{
-    order: -1;
-}
-
-.items__experience--forty .div_content{
+.items__experience--reverse .div_content{
     order: -1;
 }
 
