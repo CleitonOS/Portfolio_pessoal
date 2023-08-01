@@ -79,7 +79,7 @@ text-underline-offset: 4px; */
     }
     #id-link-contato{
         font-weight: bold;
-        padding-bottom: 0px;
+        margin-top: 2px;
     }
 
     #id-link-contato span{
