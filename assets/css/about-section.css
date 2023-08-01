@@ -30,6 +30,10 @@
     padding-bottom: 1.4rem;
 }
 
+.assignature{
+    width: 150px;
+}
+
 @media screen and (max-width: 1023px){
     .about__text{
         width: 100%;

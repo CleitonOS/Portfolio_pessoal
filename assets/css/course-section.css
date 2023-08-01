@@ -44,6 +44,10 @@
     transform: scale(1.6);
 }
 
+.img-badge{
+    transform: scale(1.6);
+}
+
 .images{
     max-width: 260px;
     max-height: 100px;
@@ -102,6 +106,10 @@
 
     .img-alura-one{
         transform: scale(1);
+    }
+
+    .img-badge{
+        transform: scale(1.0);
     }
 
     .images{
