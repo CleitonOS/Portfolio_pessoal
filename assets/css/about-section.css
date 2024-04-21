@@ -30,12 +30,27 @@
     padding-bottom: 1.4rem;
 }
 
+.link-about-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 140%;
+    font-variant-numeric: lining-nums;
+
+    width: 70%;
+    color: var(--preto-texto);
+    text-decoration: none;
+}
+
+.link-about-text:hover:not(.graduation){
+    color: #2A7AE4;
+}
+
 .assignature{
     width: 150px;
 }
 
 @media screen and (max-width: 1023px){
-    .about__text{
+    .about__text, .link-about-text{
         width: 100%;
         font-size: 1rem;
         line-height: 150%;

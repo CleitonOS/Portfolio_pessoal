@@ -2,7 +2,7 @@
 
 .skills-hobbies_section {
     background-color: var(--cor-base-claro);
-    padding-bottom: 5rem;
+    padding-bottom: 5.5rem;
 }
 
 .skills__title{
@@ -11,7 +11,7 @@
 
     text-align: center;
 
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
 
     color: var(--preto-texto);

@@ -236,6 +236,12 @@
     background-image: linear-gradient(rgba(0,0,0,.02),rgba(0,0,0,.02));
 }
 
+.fa-circle-notch{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 1023px){
     .title__contact{
         font-size: 1.6rem;
